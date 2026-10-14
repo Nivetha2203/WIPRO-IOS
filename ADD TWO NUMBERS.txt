@@ -1,0 +1,8 @@
+ADD TWO NUMBERS:
+
+let a = 10
+let b = 20
+
+let sum = a + b
+
+print("Sum =", sum)
