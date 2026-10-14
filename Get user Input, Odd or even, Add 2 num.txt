@@ -1,0 +1,30 @@
+Get user Input:
+
+print("enter your name: ")
+let name = readLine()!
+print("Hello, \(name)!")
+
+
+
+Chech even or odd:
+
+let num = 9
+if(num % 2 == 0){
+  print("Even")
+}
+else{
+  print("Odd")
+}
+
+
+
+Find largest of two numbers:
+
+let a = 22
+let b = 922
+if(a>b){
+  print("a is largest")
+}
+else{
+  print("b is largest")
+}
