@@ -1,0 +1,19 @@
+Find sum of Array:
+
+let numbers = [10, 20, 30, 40, 50]
+var sum = 0
+for number in numbers{
+  sum = sum + number
+  
+}
+print("Sum = ", sum)
+
+
+
+Print all array using loop:
+
+let num = [22, 9, 54, 229]
+for number in num {
+  print(number)
+}
+
