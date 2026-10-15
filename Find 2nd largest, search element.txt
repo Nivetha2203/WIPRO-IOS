@@ -1,0 +1,39 @@
+Find 2nd largest:
+
+let numbers = [10, 20, 45, 50, 89]
+var largest = numbers[0]
+var second = numbers[0]
+
+for number in numbers{
+  if number > largest{
+    second = largest
+    largest = number
+  }
+  else if(number > second && number != largest){
+    second = number
+  }
+}
+print("second largest is", second)
+
+
+
+Reverse Array:
+
+let num = [10, 20, 30, 40, 50]
+for number in num.reversed(){
+   print(number)
+}
+
+
+
+
+Search for element:
+
+let numbers = [10, 20, 30, 40]
+let search = 30
+if numbers.contains(search){
+   print("Element found")
+}
+else{
+   print("Element not found")
+}
