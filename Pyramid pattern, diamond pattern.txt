@@ -1,0 +1,33 @@
+Pyramid pattern:
+
+for i in 1...5{
+  for _ in 1..<(6-1){
+    print(" ", terminator: "")
+  }
+  for _ in 1...i{
+    print("* ", terminator: "")
+  }
+  print()
+}
+
+Diamond pattern:
+
+for i in 1...5{
+  for _ in 1..<(6 - i){
+    print(" ", terminator: "")
+  }
+  for _ in 1...i{
+    print("* ", terminator: "")
+  }
+  print()
+}
+
+for i in 1...4{
+  for _ in 1...i{
+    print(" ", terminator: "")
+  }
+  for _ in 1...(5-i){
+    print("* ", terminator: "")
+  }
+  print()
+}
